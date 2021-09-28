@@ -25,8 +25,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("div").click(function(){
-    $(this).hide();
+  $("h3.enseign").click(function(){
+    $("div.enseign").slideToggle(1500);
+    $(this).toggleClass("open");
   });
 });
 </script>
