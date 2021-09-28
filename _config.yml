@@ -21,10 +21,10 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "SAT.md", icon : atom}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:rohan.fosse@labri.fr"}
-  - {title: Github, icon: github, url: "https://github.com/rohanfosse"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/RohanFosse"}
-  - {title: Research, icon: researchgate, url: "https://www.researchgate.net/profile/Rohan-Fosse"}
+  - { icon: envelope, url: "mailto:rohan.fosse@labri.fr"}
+  - { icon: github, url: "https://github.com/rohanfosse"}
+  - { icon: twitter, url: "https://twitter.com/RohanFosse"}
+  - { icon: researchgate, url: "https://www.researchgate.net/profile/Rohan-Fosse"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
