@@ -17,8 +17,8 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
-  - {file: "enseignement.html",sidebaricon : chalkboard-teacher}
-  - {file: "SAT.md", sidebaricon : atom}
+  - {file: "enseignement.html",icon : chalkboard-teacher}
+  - {file: "SAT.md", icon : atom}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:rohan.fosse@labri.fr"}
