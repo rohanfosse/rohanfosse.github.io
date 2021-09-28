@@ -17,13 +17,14 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
-  - {file: "enseignement.html",icon : chalkboard-teacher}
-  - {file: "README.md"}
+  - {file: "enseignement.html",sidebaricon : chalkboard-teacher}
+  - {file: "SAT.md", sidebaricon : atom}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:rohan.fosse@labri.fr"}
   - {title: Github, icon: github, url: "https://github.com/rohanfosse"}
-  - {title: Subscribe, icon: twitter, url: "https://twitter.com/RohanFosse"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/RohanFosse"}
+  - {title: Research, icon: researchgate, url: "https://www.researchgate.net/profile/Rohan-Fosse"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
