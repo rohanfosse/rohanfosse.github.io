@@ -13,70 +13,18 @@ title: " Enseignement"
       enseignements</h2>
 
 
-    <div id="accordion">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-              aria-controls="collapseOne">
-              <i class="fa fa-mouse-pointer fa-fw w3-margin-right w3-xlarge w3-text-teal "></i>IF111 - algorithme et
-              structure de données
-            </button>
-          </h5>
-        </div>
-
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body">
-            {% if site.show_excerpts %}
-            {% include home.html %}
-            {% else %}
-            {% include archive.html title="Posts" %}
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-              aria-expanded="false" aria-controls="collapseTwo">
-              PG109 - Programmation Impérative
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            TODO
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-              aria-expanded="false" aria-controls="collapseThree">
-              RE111 - Réseau
-            </button>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-          <div class="card-body">
-            TODO
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
     <div class="accordion" id="myAccordion">
       <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-              <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">1. What is HTML?</button>									
+              <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">IF11 - Algorithme et Structure de données</button>									
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
               <div class="card-body">
-                  <p>HTML stands for HyperText Markup Language. HTML is the standard markup language for describing the structure of web pages. <a href="https://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                {% if site.show_excerpts %}
+                {% include home.html %}
+                {% else %}
+                {% include archive.html title="Posts" %}
+                {% endif %}
               </div>
           </div>
       </div>
