@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
   <div class="w3-row-padding">
+
+    <!-- Left Column -->
     <div class="w3-third">
       <div class="accordion" id="myAccordion">
         <div class="accordion-item">
@@ -49,8 +53,12 @@ layout: default
           </div>
         </div>
       </div>
+      <!-- End Left Column -->
     </div>
-    <div class="col-two-third">
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         {{ content }}
         {% if page.comments != false and site.comments.isso or site.comments.disqus %}
@@ -60,6 +68,9 @@ layout: default
         <noscript>Please enable JavaScript to view comments.</noscript>
         {% endif %}
       </div>
+      <!-- End Right Column -->
     </div>
+    <!-- End Grid -->
   </div>
+  <!-- End Page Container -->
 </div>
