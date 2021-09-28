@@ -15,44 +15,165 @@ title: " Enseignement"
         <h2 class=" w3-padding-16"><i class="fa fa-list fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Liste des
           enseignements</h2>
 
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="heading-1">
+              <h5 class="mb-0">
+                <a role="button" data-toggle="collapse" href="#collapse-1" aria-expanded="true"
+                  aria-controls="collapse-1">
+                  IF11 - Algorithme et Structure de données
+                </a>
+              </h5>
+            </div>
+            <div id="collapse-1" class="collapse show" data-parent="#accordion" aria-labelledby="heading-1">
+              <div class="card-body">
 
-          <div class="accordion" id="myAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button type="button btn-block" class="accordion-button collapsed" data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne">IF11 - Algorithme et Structure de données</button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                  {% if site.show_excerpts %}
-                  {% include home.html %}
-                  {% else %}
-                  {% include archive.html title="Posts" %}
-                  {% endif %}
+                <div id="accordion-1">
+                  <div class="card">
+                    <div class="card-header" id="heading-1-1">
+                      <h5 class="mb-0">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1"
+                          aria-expanded="false" aria-controls="collapse-1-1">
+                          Cours Magistraux
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapse-1-1" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-1">
+                      <div class="card-body">
+
+                        <div id="accordion-1-1">
+                          <div class="card">
+                            <div class="card-header" id="heading-1-1-1">
+                              <h5 class="mb-0">
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-1"
+                                  aria-expanded="false" aria-controls="collapse-1-1-1">
+                                  Item 1 > 1 > 1
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapse-1-1-1" class="collapse" data-parent="#accordion-1-1"
+                              aria-labelledby="heading-1-1-1">
+                              <div class="card-body">
+                                Text 1 > 1 > 1
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading-1-1-2">
+                              <h5 class="mb-0">
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-2"
+                                  aria-expanded="false" aria-controls="collapse-1-1-2">
+                                  Item 1 > 1 > 2
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapse-1-1-2" class="collapse" data-parent="#accordion-1-1"
+                              aria-labelledby="heading-1-1-2">
+                              <div class="card-body">
+                                Text 1 > 1 > 2
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="heading-1-1-3">
+                              <h5 class="mb-0">
+                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-1-3"
+                                  aria-expanded="false" aria-controls="collapse-1-1-3">
+                                  Item 1 > 1 > 3
+                                </a>
+                              </h5>
+                            </div>
+                            <div id="collapse-1-1-3" class="collapse" data-parent="#accordion-1-1"
+                              aria-labelledby="heading-1-1-3">
+                              <div class="card-body">
+                                Text 1 > 1 > 3
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading-1-2">
+                      <h5 class="mb-0">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-2"
+                          aria-expanded="false" aria-controls="collapse-1-2">
+                          Travaux Dirigés
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapse-1-2" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-2">
+                      <div class="card-body">
+                        Text 1 > 2
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="heading-1-3">
+                      <h5 class="mb-0">
+                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1-3"
+                          aria-expanded="false" aria-controls="collapse-1-3">
+                          Enseignement Intégré
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapse-1-3" class="collapse" data-parent="#accordion-1" aria-labelledby="heading-1-3">
+                      <div class="card-body">
+                        Text 1 > 2
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                  PG109 - Programmation Impérative </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree">RE111 - Réseaux </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-                <div class="card-body">
-                </div>
+
               </div>
             </div>
           </div>
+          <div class="card">
+            <div class="card-header" id="heading-2">
+              <h5 class="mb-0">
+                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-2" aria-expanded="false"
+                  aria-controls="collapse-2">
+                  PG109 - Programation Impérative
+                </a>
+              </h5>
+            </div>
+            <div id="collapse-2" class="collapse" data-parent="#accordion" aria-labelledby="heading-2">
+              <div class="card-body">
+                Text 2
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading-3">
+              <h5 class="mb-0">
+                <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-3" aria-expanded="false"
+                  aria-controls="collapse-3">
+                  RE111 - Réseaux
+                </a>
+              </h5>
+            </div>
+            <div id="collapse-3" class="collapse" data-parent="#accordion" aria-labelledby="heading-3">
+              <div class="card-body">
+                Text 3
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       </div>
