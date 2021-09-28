@@ -5,102 +5,102 @@ title: " Enseignement"
 
 
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <div class="col-lg-3">
-    <div class="w3-white w3-text-grey w3-card-4">
-      <div class="w3-display-container">
-        <img src="rfosse.png" align="middle" style="width:100%" alt="Avatar">
-      </div>
-      <div class="w3-container">
-        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>PhD student</p>
-        <p><i class="fa fa-address-card fa-fw w3-margin-right w3-large w3-text-teal"></i>LaBRI, Office 356 </p>
-        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bordeaux, France</p>
-
-        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>rohan.fosse@labri.fr</p>
-        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>05 40 00 84 19</p>
-        <hr>
-
-        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>General Interests</b>
-        </p>
-        <p>SAT problem</p>
-        <div class="w3-pale-blue w3-round-xlarge w3-small">
-          <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">&emsp; </div>
+  <div class="w3-row-padding">
+    <div class="col-lg-3">
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="rfosse.png" align="middle" style="width:100%" alt="Avatar">
         </div>
-        <p>Logic</p>
-        <div class="w3-pale-blue w3-round-xlarge w3-small">
-          <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-            <div class="w3-center w3-text-white">&emsp;</div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>PhD student</p>
+          <p><i class="fa fa-address-card fa-fw w3-margin-right w3-large w3-text-teal"></i>LaBRI, Office 356 </p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Bordeaux, France</p>
+
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>rohan.fosse@labri.fr</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>05 40 00 84 19</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>General Interests</b>
+          </p>
+          <p>SAT problem</p>
+          <div class="w3-pale-blue w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">&emsp; </div>
+          </div>
+          <p>Logic</p>
+          <div class="w3-pale-blue w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">&emsp;</div>
+            </div>
+          </div>
+          <p>Popularisation</p>
+          <div class="w3-pale-blue w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">&emsp;</div>
+          </div>
+          <p>Graph Theory</p>
+          <div class="w3-pale-blue w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">&emsp;</div>
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <br>
+    </div>
+    <div class="col-lg-9">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class=" w3-padding-16"><i class="fa fa-list fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Liste des
+          enseignements</h2>
+
+
+        <div class="accordion" id="myAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button type="button btn-block" class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne">IF11 - Algorithme et Structure de données</button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+              <div class="card-body">
+                {% if site.show_excerpts %}
+                {% include home.html %}
+                {% else %}
+                {% include archive.html title="Posts" %}
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">2.
+                What is Bootstrap?</button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+              <div class="card-body">
+                <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web
+                  development. It is a collection of CSS and HTML conventions. <a
+                    href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree">3. What is CSS?</button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+              <div class="card-body">
+                <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given
+                  HTML element such as colors, backgrounds, fonts etc. <a
+                    href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+              </div>
+            </div>
           </div>
         </div>
-        <p>Popularisation</p>
-        <div class="w3-pale-blue w3-round-xlarge w3-small">
-          <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">&emsp;</div>
-        </div>
-        <p>Graph Theory</p>
-        <div class="w3-pale-blue w3-round-xlarge w3-small">
-          <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">&emsp;</div>
-        </div>
-        <br>
+
+
       </div>
     </div>
-
-    <br>
   </div>
-  <div class="col-lg-9">
-    <div class="w3-container w3-card w3-white w3-margin-bottom">
-      <h2 class=" w3-padding-16"><i class="fa fa-list fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Liste des
-        enseignements</h2>
-
-
-      <div class="accordion" id="myAccordion">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button type="button btn-block" class="accordion-button collapsed" data-bs-toggle="collapse"
-              data-bs-target="#collapseOne">IF11 - Algorithme et Structure de données</button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-            <div class="card-body">
-              {% if site.show_excerpts %}
-              {% include home.html %}
-              {% else %}
-              {% include archive.html title="Posts" %}
-              {% endif %}
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">2.
-              What is Bootstrap?</button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
-            <div class="card-body">
-              <p>Bootstrap is a sleek, intuitive, and powerful front-end framework for faster and easier web
-                development. It is a collection of CSS and HTML conventions. <a
-                  href="https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree">3. What is CSS?</button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
-            <div class="card-body">
-              <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given
-                HTML element such as colors, backgrounds, fonts etc. <a
-                  href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    </div>
-  </div>
-
 </div>
 <!-- End Right Column -->
 
