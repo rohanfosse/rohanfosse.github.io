@@ -31,8 +31,7 @@
 {% endif %}
 
 <header>
-  <i class="fa fa-user" aria-hidden="true"></i>
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  <a href="{{ "/" | relative_url }}" class="title"><i class="fa fa-user" aria-hidden="true"></i>{{ site.title | escape }}</a>
   {% include menu.html menu=pages %}
 </header>
 
