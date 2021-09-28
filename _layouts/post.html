@@ -2,13 +2,23 @@
 layout: default
 ---
 
-<article>
-  {% include meta.html post=page %}
-  {{ content }}
-  {% if page.comments != false and site.comments.isso or site.comments.disqus %}
-    <hr>
-    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
-    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
-    <noscript>Please enable JavaScript to view comments.</noscript>
-  {% endif %}
-</article>
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+
+    </div>
+    <div class="col-two-third">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+
+        {% include meta.html post=page %}
+        {{ content }}
+        {% if page.comments != false and site.comments.isso or site.comments.disqus %}
+        <hr>
+        {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
+        {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
+        <noscript>Please enable JavaScript to view comments.</noscript>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
