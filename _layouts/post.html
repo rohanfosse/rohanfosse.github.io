@@ -9,8 +9,6 @@ layout: default
     </div>
     <div class="col-two-third">
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-
-        {% include meta.html post=page %}
         {{ content }}
         {% if page.comments != false and site.comments.isso or site.comments.disqus %}
         <hr>
