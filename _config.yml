@@ -1,4 +1,4 @@
-title: "Rohan Fossé"
+title: {title: "Rohan Fossé",icon: graduation-cap}
 author: "Rohan Fossé"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
