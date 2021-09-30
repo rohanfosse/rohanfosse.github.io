@@ -19,8 +19,16 @@ layout: default
         <a class="w3-opacity" href="../enseignement/"><i class="fa fa-arrow-left fa-fw w3-margin-right w3-text-teal"></i>Revenir aux enseignements</a>
         <hr>
         <div class="d-grid gap-2">
+          {% if page.pdf %}
           <a class="btn btn-outline-primary" href="{{ page.pdf }}" role="button">Enoncé</a>
-          <a class="btn btn-outline-danger" href="#" role="button">Corrigé</a>
+          {% else %}
+          <a class="btn btn-outline-primary disabled" href="#" role="button">Enoncé</a>
+          {% endif %}
+          {% if page.correction %}
+          <a class="btn btn-outline-danger" href="{{ correction.pdf }}" role="button">Corrigé</a>
+          {% else %}
+          <a class="btn btn-outline-danger disabled" href="#" role="button">Corrigé</a>
+          {% endif %}
         </div>
 
       </div>
